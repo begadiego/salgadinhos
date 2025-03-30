@@ -1,0 +1,27 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coxinhaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d9a45b"/>
+      <stop offset="100%" stop-color="#c27e3a"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(30, 25)">
+    <!-- Coxinha Body -->
+    <path d="M45,10 C65,20 90,50 85,80 C80,110 20,110 15,80 C10,50 25,20 45,10 Z" fill="url(#coxinhaGradient)" stroke="#96612b" stroke-width="2"/>
+    
+    <!-- Highlights -->
+    <path d="M30,30 C40,35 45,40 50,60 C55,80 40,90 30,85" fill="none" stroke="#e2b978" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Small crumb texture details -->
+    <g fill="#96612b" opacity="0.3">
+      <circle cx="25" cy="40" r="2"/>
+      <circle cx="65" cy="50" r="1.5"/>
+      <circle cx="40" cy="70" r="2"/>
+      <circle cx="60" cy="65" r="1"/>
+      <circle cx="50" cy="30" r="1.5"/>
+      <circle cx="30" cy="55" r="1"/>
+      <circle cx="45" cy="85" r="1.5"/>
+      <circle cx="70" cy="70" r="1"/>
+    </g>
+  </g>
+</svg>

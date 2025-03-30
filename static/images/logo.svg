@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="50" r="45" fill="#FFA500" filter="url(#shadow)"/>
+  
+  <!-- Snack icons -->
+  <g fill="#8B4513" transform="translate(60, 20)" filter="url(#shadow)">
+    <!-- Stylized coxinha -->
+    <path d="M20,5 Q40,15 30,40 Q10,50 10,30 Z" />
+    <!-- Stylized salgados -->
+    <circle cx="60" cy="25" r="15" />
+    <rect x="45" y="45" width="25" height="15" rx="5" ry="5" />
+  </g>
+  
+  <!-- Store name -->
+  <text x="100" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#FFFFFF" filter="url(#shadow)">SALGADOS</text>
+</svg>

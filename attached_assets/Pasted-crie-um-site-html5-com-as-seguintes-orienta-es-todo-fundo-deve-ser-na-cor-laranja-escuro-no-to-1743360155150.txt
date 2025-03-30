@@ -1,0 +1,29 @@
+crie um site html5 com as seguintes orientações 
+
+todo fundo deve ser na cor laranja escuro
+no topo terá a imagem que eu vou colocar aqui como anexo o nome do arquivo vai ser "logo"
+logo abaixo você terá a palavra escrita o cardápio em negrito e Itálico uma fonte grande e na cor preta
+abaixo você vai criar a galeria de seleção dos produtos que serão os seguintes:
+coxinha de frango
+coxinha de carne
+rissoles de presunto queijo
+quibe
+bolinha de queijo
+croquete calabresa
+croquete azeitona
+enrolado salsicha
+essa será a categoria dos salgados fritos
+nesta tabela de seleção o cliente terá a opção de selecionar o produto que custará 57 centavos a unidade o cliente poderá escolher a quantidade desejada e depois clicar no botão para enviar ao carrinho no carrinho fará a soma de todo o pedido dele
+
+crie um site com as dimensões necessárias para ser visualizado com facilidade nenhum celular comum
+crie um note bonito e intuitivo para o cliente usando cores mais escuras e sombras para dar profundidade quero que pareça como se fosse um app do próprio celular
+
+abaixo será mostrado o carrinho de compras do cliente onde mostrará o valor total do pedido  e a lista de p produtos já selecionados selecionados faca o layout do carrinho diferente do resto
+
+após o cliente terá 3 opções para selecionar
+
+opção 1: retirada no local , caso seja selecionado esta opção abrira o campo para ele adicionar a data e hora da retirada.
+opção 2: entrega, caso seja selecionado esta opção abrira o campo para ele adicionar a data a hora e o endereço.
+opção 3: fritar no evento, caso seja selecionado esta opção abrira o campo para ele adicionar a data a hora e o endereço e o valor dos produtos fritos passara de 0,57 a unidade para 0,50 a unidade , e após o cliente preencher todos os Campos abrirá a seguinte mensagem" valor do serviço de fritura 150 BRL, necessário 7 l de óleo para realizar a fritura, gás disponível no local da fritura.  
+
+Ao final terá um botão grande na cor verde escrito enviar pedido, ao cliente clicar neste botão será copiado o pedido do cliente ou endereço e o horário e as opções selecionadas pelo mesmo envi ará para WhatsApp ao selecionar o envio do WhatsApp as informações será apresentada da seguinte maneira primeira linha nome do cliente segunda linha os produtos selecionados com o valor na frente abaixo terá horário a data e o endereço que o cliente pediu

@@ -1,0 +1,31 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bolinhaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0b870"/>
+      <stop offset="100%" stop-color="#c69c45"/>
+    </linearGradient>
+    <radialGradient id="cheeseGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#f6e58d" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffbe76" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(35, 35)">
+    <!-- Bolinha Body -->
+    <circle cx="40" cy="40" r="35" fill="url(#bolinhaGradient)" stroke="#a67c2c" stroke-width="2"/>
+    
+    <!-- Cheese hint inside -->
+    <circle cx="40" cy="40" r="20" fill="url(#cheeseGradient)" opacity="0.7"/>
+    
+    <!-- Crumb texture -->
+    <g fill="#a67c2c" opacity="0.3">
+      <circle cx="20" cy="25" r="2"/>
+      <circle cx="60" cy="30" r="1.5"/>
+      <circle cx="30" cy="60" r="2"/>
+      <circle cx="55" cy="50" r="1"/>
+      <circle cx="45" cy="20" r="1.5"/>
+      <circle cx="25" cy="40" r="1"/>
+      <circle cx="40" cy="70" r="1.5"/>
+      <circle cx="65" cy="45" r="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="esfihaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e6c795"/>
+      <stop offset="100%" stop-color="#c9a16a"/>
+    </linearGradient>
+    <linearGradient id="fillingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b7654c"/>
+      <stop offset="100%" stop-color="#984935"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(35, 35)">
+    <!-- Esfiha Base (triangular shape) -->
+    <path d="M40,15 L10,65 L70,65 Z" fill="url(#esfihaGradient)" stroke="#a88848" stroke-width="2"/>
+    
+    <!-- Filling Area -->
+    <path d="M40,25 L20,60 L60,60 Z" fill="url(#fillingGradient)" stroke="#984935" stroke-width="0.5" opacity="0.8"/>
+    
+    <!-- Texture details for crust -->
+    <g fill="#a88848" opacity="0.3">
+      <circle cx="25" cy="45" r="1.5"/>
+      <circle cx="35" cy="35" r="1"/>
+      <circle cx="45" cy="45" r="1.5"/>
+      <circle cx="55" cy="55" r="1"/>
+      <circle cx="30" cy="60" r="1.5"/>
+      <circle cx="40" cy="50" r="1"/>
+      <circle cx="50" cy="35" r="1.5"/>
+    </g>
+    
+    <!-- Crust edge definition -->
+    <path d="M40,15 L10,65" fill="none" stroke="#a88848" stroke-width="1.5" opacity="0.7"/>
+    <path d="M40,15 L70,65" fill="none" stroke="#a88848" stroke-width="1.5" opacity="0.7"/>
+    <path d="M10,65 L70,65" fill="none" stroke="#a88848" stroke-width="1.5" opacity="0.7"/>
+  </g>
+</svg>

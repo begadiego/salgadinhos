@@ -1,0 +1,33 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="empadaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e6c795"/>
+      <stop offset="100%" stop-color="#c9a16a"/>
+    </linearGradient>
+    <linearGradient id="empadaCrustGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4b37e"/>
+      <stop offset="100%" stop-color="#b7914d"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(35, 35)">
+    <!-- Empada Base (bottom part) -->
+    <path d="M20,60 L20,40 C20,25 35,20 40,20 C45,20 60,25 60,40 L60,60 Z" fill="url(#empadaGradient)" stroke="#a88848" stroke-width="2"/>
+    
+    <!-- Empada Top Crust -->
+    <path d="M20,40 C20,35 35,25 40,25 C45,25 60,35 60,40 C60,45 55,48 40,48 C25,48 20,45 20,40 Z" fill="url(#empadaCrustGradient)" stroke="#a88848" stroke-width="1.5"/>
+    
+    <!-- Texture details -->
+    <g fill="#a88848" opacity="0.3">
+      <circle cx="25" cy="45" r="1.5"/>
+      <circle cx="35" cy="35" r="1"/>
+      <circle cx="45" cy="45" r="1.5"/>
+      <circle cx="55" cy="35" r="1"/>
+      <circle cx="30" cy="55" r="1.5"/>
+      <circle cx="40" cy="50" r="1"/>
+      <circle cx="50" cy="55" r="1.5"/>
+    </g>
+    
+    <!-- Crimped edge details -->
+    <path d="M20,40 L20,38 L25,38 L25,40 L30,38 L35,40 L40,38 L45,40 L50,38 L55,40 L60,38 L60,40" fill="none" stroke="#a88848" stroke-width="1" opacity="0.7"/>
+  </g>
+</svg>
