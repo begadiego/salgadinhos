@@ -20,7 +20,7 @@ def inject_products():
         {"id": 5, "name": "Bolinha de Queijo", "price": 0.57, "type": "fried", "min_quantity": 25, "image": "bolinha_queijo_real.png"},
         {"id": 6, "name": "Croquete Calabresa", "price": 0.57, "type": "fried", "min_quantity": 25, "image": "croquete.svg"},
         {"id": 7, "name": "Croquete Azeitona", "price": 0.57, "type": "fried", "min_quantity": 25, "image": "croquete.svg"},
-        {"id": 8, "name": "Enrolado Salsicha", "price": 0.57, "type": "fried", "min_quantity": 25, "image": "enrolado.svg"}
+        {"id": 8, "name": "Enrolado Salsicha", "price": 0.57, "type": "fried", "min_quantity": 25, "image": "enrolado_salsicha_real.jpeg"}
     ]
     
     baked_products = [
@@ -28,7 +28,7 @@ def inject_products():
         {"id": 10, "name": "Empada de Palmito", "price": 0.87, "type": "baked", "min_quantity": 25, "image": "empada_real.png"},
         {"id": 11, "name": "Esfiha de Carne", "price": 0.78, "type": "baked", "min_quantity": 25, "image": "esfiha.svg"},
         {"id": 12, "name": "Esfiha de Frango", "price": 0.78, "type": "baked", "min_quantity": 25, "image": "esfiha.svg"},
-        {"id": 13, "name": "Lanchinho Sírio", "price": 1.05, "type": "baked", "min_quantity": 25, "image": "lanchinho_sirio.svg"}
+        {"id": 13, "name": "Lanchinho Sírio", "price": 1.05, "type": "baked", "min_quantity": 25, "image": "lanchinho_sirio_real.jpeg"}
     ]
     
     return {
